@@ -1,0 +1,190 @@
+/* Element selector */
+body {
+    background-attachment: fixed;
+    background-color: rgb(232, 91, 194);
+    margin: 0;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Main heading */
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/* Logo */
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Description paragraph */
+header p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+/* Class selector */
+.expense-section {
+    background-color: #2563eb;
+    padding: 30px;
+    margin-top: 31px;
+    border-radius: 12px;
+}
+
+
+/* Direct child selector */
+.expense-section > form {
+    width: 100%;
+}
+
+
+/* ID selector */
+#expenses {
+    background-color: aqua;
+    padding: 27px;
+    border-radius: 12px;
+    border: 2px solid #2563eb;
+    margin-top: 30px;
+}
+
+
+/* Element selector */
+h2 {
+    color: #2563eb;
+}
+
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+/* Negation pseudo-class */
+input:not([type="submit"]) {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #9ca3af;
+    border-radius: 5px;
+}
+
+
+/* Select styling */
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #9ca3af;
+    border-radius: 5px;
+}
+
+
+/* Focus pseudo-class */
+input:focus,
+select:focus {
+    outline: none;
+    border: 2px solid #facc15;
+}
+
+
+/* Button */
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #facc15;
+    color: #111827;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Button hover */
+button:hover {
+    background-color: #eab308;
+}
+
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+/* Descendant selector */
+.expenses-section th,
+.expenses-section td {
+    border: 1px solid #2563eb;
+    padding: 12px;
+    text-align: left;
+}
+
+
+/* Table header */
+.expenses-section th {
+    background-color: #2563eb;
+    color: white;
+}
+
+
+/* Position pseudo-class */
+tr:nth-child(even) {
+    background-color: #d9ffff;
+}
+
+
+/* First row selector */
+tr:first-child {
+    font-weight: bold;
+}
+
+
+/* Table row hover */
+tbody tr:hover {
+    background-color: #b5eeee;
+}
+
+
+/* Instructions */
+.instructions {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+
+/* Summary */
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+
+/* Multimedia section */
+.multimedia {
+    background-color: white;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+
+/* Responsive video */
+iframe {
+    max-width: 100%;
+}
